@@ -1,0 +1,32 @@
+{
+    "name": "cmercado93/chronospay-api-business",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "php-curl-class/php-curl-class": "^9.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cmercado93\\ChronospayApiBusiness\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cmercado93\\ChronospayApiBusiness\\Tests\\": "tests/"
+        },
+        "files": [
+            "tests/Helpers/Helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Carlos Mercado",
+            "email": "cmercado93@outlook.com"
+        }
+    ]
+}

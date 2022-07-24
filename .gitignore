@@ -1,0 +1,3 @@
+vendor/
+.env
+tests/Unit/receipt_of_a_transfer_payment.pdf
